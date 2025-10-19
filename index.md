@@ -36,4 +36,4 @@ OshiUta は YouTube の埋め込みプレーヤーで配信アーカイブの指
 © 2025 taida-agency Development Team. All rights reserved.  
 taida-agency 開發團隊　/ 開発チーム 
 
-_Last updated: 2025-10-19_
+_Last updated: 2025-10
