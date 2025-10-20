@@ -1,6 +1,6 @@
 # Privacy Policy (English)
 
-**Last Updated**: 2025-10-19
+**Last Updated**: 2025-10-01
 
 OshiUta (the "App") respects your privacy.
 
