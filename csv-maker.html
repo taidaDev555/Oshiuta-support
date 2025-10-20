@@ -32,7 +32,7 @@
 <body>
 <div class="wrap">
   <h1>OshiUta CSV Maker</h1>
-  <p class="hint">URLと曲リストを入れるだけで、<b>OshiUta</b> 互換の <span class="mono">songlist.csv</span> を作れます（オフラインで動作）</p>
+  <p class="hint">URLと曲リストを入れるだけで、<b>OshiUta</b> 互換の <span class="mono">songlist.csv</span> を作れます（オフラインで動作）<br>※ 出力CSVは<b>英語</b>のヘッダと英語デフォルト値になります。</p>
 
   <div class="box">
     <div class="row cols-2">
@@ -42,13 +42,13 @@
       </div>
       <div>
         <label>配信者名（Streamer）</label>
-        <input id="streamer" placeholder="花鹿める"/>
+        <input id="streamer" placeholder="Sample Streamer"/>
       </div>
     </div>
     <div class="row cols-2">
       <div>
         <label>配信タイトル</label>
-        <input id="streamTitle" placeholder="秋の歌枠"/>
+        <input id="streamTitle" placeholder="Summer Karaoke (Sample)"/>
       </div>
       <div>
         <label>YouTube URL または Video ID</label>
@@ -77,7 +77,7 @@
     </div>
 
     <label>曲リスト入力</label>
-    <textarea id="songs" placeholder="下記いずれの形式でもOK（1行1曲）&#10;例1）紅蓮華,LiSA,1:23&#10;例2）1:23 紅蓮華 - LiSA&#10;例3）12:40 残酷な天使のテーゼ"></textarea>
+    <textarea id="songs" placeholder="1行1曲、以下いずれの形式でもOK&#10;例1）Sample Song A,Test Artist,1:23&#10;例2）1:23 Sample Song B - Test Artist&#10;例3）12:40 Sample Song C"></textarea>
 
     <div class="actions">
       <button class="btn secondary" id="loadSample">サンプル挿入</button>
@@ -114,7 +114,7 @@
   </div>
 
   <footer class="wrap" style="text-align:center;color:#777;font-size:.9rem">
-    © 2025 taida-agency Development Team · Offline tool (no server)
+    © 2025 taida-agency Development Team · Offline tool (no server). Output CSV language: English.
   </footer>
 </div>
 
@@ -168,13 +168,13 @@
   // A) "Title,Artist,1:23"
   // B) "1:23 Title - Artist"
   // C) "1:23 Title"（Artist省略）
-  function parseLine(line, fallbackArtist=""){
+  function parseLine(line){
     const raw = toHalfWidth(line).trim();
     if(!raw) return null;
 
     // A) カンマ区切り：Title,Artist,Time
     const csvParts = raw.split(",").map(x=>x.trim());
-    if(csvParts.length>=3 && parseTimeToSec(csvParts[csvParts.length-1]).toString()!=="NaN"){
+    if(csvParts.length>=3 && !Number.isNaN(parseTimeToSec(csvParts[csvParts.length-1]))){
       const timeStr = csvParts.pop();
       const artist = csvParts.pop();
       const title = csvParts.join(",").trim(); // タイトル中のカンマも許容
@@ -192,7 +192,7 @@
       // "Title - Artist" または "Title ― Artist" 対応
       const sp = rest.split(/\s[-–—―]\s/);
       const title = sp[0].trim();
-      const artist = (sp[1]||fallbackArtist||"").trim();
+      const artist = (sp[1]||"").trim();
       if(!title) return null;
       return {title, artist, start};
     }
@@ -202,8 +202,9 @@
 
   function buildRows(){
     const date = document.getElementById("streamDate").value.trim() || "2025/01/01";
-    const title = document.getElementById("streamTitle").value.trim() || "無題の配信";
-    const streamer = document.getElementById("streamer").value.trim() || "不明";
+    // ▼ CSVは英語で出力したいので、空欄時のデフォルト値も英語にする
+    const title = document.getElementById("streamTitle").value.trim() || "Untitled stream";
+    const streamer = document.getElementById("streamer").value.trim() || "Unknown";
     const url = document.getElementById("youtubeURL").value.trim();
     const defaultDuration = parseInt(document.getElementById("defaultDuration").value)||600;
     const endMode = document.getElementById("endMode").value;
@@ -229,12 +230,11 @@
     }
     if(rows.length===0) throw new Error("有効な行が見つかりませんでした。形式を確認してください。");
 
-    // CSV文字列
+    // CSV（英語ヘッダ固定）
     let header = "StreamDate,StreamTitle,Streamer,VideoId,Title,Artist,StartSec,EndSec";
     let csv = header + "\n";
     for(const r of rows){
-      // カンマ/タブどちらでもダウンロードは .csv とする（Excel想定）
-      const line = r.map(x => (sep==="," && /[",\n]/.test(x)) ? `"${x}"` : x).join(sep);
+      const line = r.map(x => (sep==="," && /[\",\n]/.test(x)) ? `"${x}"` : x).join(sep);
       csv += line + "\n";
     }
     return {csv, rows, header, sep};
@@ -294,12 +294,13 @@
 
   document.getElementById("loadSample").addEventListener("click", ()=>{
     const sample = [
-      "紅蓮華,LiSA,1:23",
-      "1:10:05 ブルーバード - いきものがかり",
-      "12:40 残酷な天使のテーゼ",
-      "03:05 タッチ - 岩崎良美",
+      "Sample Song A,Test Artist,1:23",
+      "1:10:05 Sample Song B - Test Artist",
+      "12:40 Sample Song C",
+      "03:05 Sample Song D - Test Artist",
     ].join("\n");
     document.getElementById("songs").value = sample;
+    // 英語出力の例として、上の入力でもCSVは英語ヘッダ・英語デフォルト値で保存されます
     setStatus("サンプルを挿入しました。");
   });
 </script>
