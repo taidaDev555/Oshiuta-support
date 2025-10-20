@@ -34,6 +34,15 @@ OshiUta 透過 **CSV 檔案** 來管理直播與歌曲資料。
   `https://youtu.be/abc123xyz45` 或 `https://www.youtube.com/watch?v=abc123xyz45`），  
   App 會自動擷取影片 ID。
 
+
+### 🧰 Online CSV Maker
+
+You can also use the online tool to create a CSV file directly in your browser:  
+(English / 中文 / 日本語 supported)
+
+[OshiUta CSV Maker (open in new tab)](tools/csv-maker.html){:target="_blank" rel="noopener"}
+
+
 ### 注意事項
 
 - CSV 檔首行必須包含標題列（欄位名稱）。  
@@ -78,6 +87,13 @@ Each line represents one song segment within a YouTube stream.
   `https://youtu.be/abc123xyz45` or `https://www.youtube.com/watch?v=abc123xyz45`;  
   the app automatically extracts the video ID.
 
+### 🧰 Online CSV Maker
+
+You can also use the online tool to create a CSV file directly in your browser:  
+(English / 中文 / 日本語 supported)
+
+[OshiUta CSV Maker (open in new tab)](tools/csv-maker.html){:target="_blank" rel="noopener"}
+
 ### Notes
 
 - Always include the header row with the column names.  
@@ -121,6 +137,13 @@ OshiUta は、歌枠や配信アーカイブの情報を **CSV ファイル** �
   アプリでインポート時に自動的に読み込めます。  
 - YouTube欄には **フルURL（例：`https://youtu.be/abc123xyz45` や `https://www.youtube.com/watch?v=abc123xyz45`）** を入力しても問題ありません。  
   アプリ側で動画IDを自動抽出します。
+
+### 🧰 Online CSV Maker
+
+You can also use the online tool to create a CSV file directly in your browser:  
+(English / 中文 / 日本語 supported)
+
+[OshiUta CSV Maker (open in new tab)](tools/csv-maker.html){:target="_blank" rel="noopener"}
 
 ### 注意点
 
