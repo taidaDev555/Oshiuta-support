@@ -1,4 +1,4 @@
-[🏠 Index](index.md) ｜ [💬 Support](support.md) ｜ [🔐 Privacy Policy](privacy.md) ｜ [📩 Contact](contact.md) ｜ [🧾 CSV Maker](csv-maker.html)
+[🏠 Index](index.md) ｜ [💬 Support](support.md) ｜ [🔐 Privacy Policy](privacy.md) ｜ [📩 Contact](contact.md) ｜ [🧾 CSV Maker](csv_maker.html)
 
 ---
 
@@ -19,7 +19,7 @@ You can import CSV song lists, loop sections, and favorite songs.
 ```
 StreamDate,StreamTitle,Streamer,VideoId,Title,Artist,StartSec,EndSec
 ```
-More details: [CSV Marker Tool](csv-maker.html)
+More details: [CSV Marker Tool](csv_maker.html)
 
 ---
 
@@ -40,7 +40,7 @@ More details: [CSV Marker Tool](csv-maker.html)
 ```
 StreamDate,StreamTitle,Streamer,VideoId,Title,Artist,StartSec,EndSec
 ```
-詳情請參閱 [CSV Marker 工具](csv-maker.html)
+詳情請參閱 [CSV Marker 工具](csv_maker.html)
 
 ---
 
@@ -60,7 +60,7 @@ StreamDate,StreamTitle,Streamer,VideoId,Title,Artist,StartSec,EndSec
 ```
 StreamDate,StreamTitle,Streamer,VideoId,Title,Artist,StartSec,EndSec
 ```
-詳しくは [CSV作成ツール（CSV Marker）](csv-maker.html) をご覧ください。
+詳しくは [CSV作成ツール（CSV Marker）](csv_maker.html) をご覧ください。
 
 ---
 
