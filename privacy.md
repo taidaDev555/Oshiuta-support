@@ -2,7 +2,7 @@
 
 ---
 
-**Last Updated / 最後更新 / 最終更新日:** 2025-10-19
+**Last Updated / 最後更新 / 最終更新日:** 2025-10-01
 
 ---
 
@@ -22,7 +22,7 @@ See Google policies:
 - [Google Privacy Policy](https://policies.google.com/privacy)
 
 ### 3. Contact
-**taida.agent@gmail.com**
+**taida.agent**<a href="#" data-mail="protected">taida.agent@gmail.com</a>
 
 ---
 
@@ -42,7 +42,7 @@ OshiUta 重視您的隱私，並依據以下原則處理個人資料。
 - [Google 隱私權政策](https://policies.google.com/privacy)
 
 ### 三、聯絡方式
-**taida.agent@gmail.com**
+**taida.agent**<a href="#" data-mail="protected">taida.agent@gmail.com</a>
 
 ---
 
@@ -59,9 +59,21 @@ YouTube の埋め込みプレーヤー（iframe API）を使用します。
 - [Google プライバシーポリシー](https://policies.google.com/privacy)
 
 ### お問い合わせ
-**taida.agent@gmail.com**
+**taida.agent**<a href="#" data-mail="protected">taida.agent@gmail.com</a>
 
 ---
 
 © 2025 OshiUta / taida.agent@gmail.com  
 All rights reserved.
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const user = 'taida.agent';
+  const domain = 'gmail.com';
+  const mail = `${user}@${domain}`;
+  document.querySelectorAll('a[href^="#"][id^="contact-mail"]').forEach(a=>{
+    a.href = `mailto:${mail}`;
+  });
+});
+</script>
+
