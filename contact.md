@@ -4,20 +4,21 @@
 
 ## 🇺🇸 English
 If you have any questions or feedback, please contact:  
-**E-mail:** <a href="mailto:protected" data-mail="obfuscated">loading...</a>
+**E-mail:** <a href="#" data-mail="protected">taida.agent@gmail.com</a>
+
 
 ---
 
 ## 🇹🇼 繁體中文
 若有問題或建議，請聯絡：  
-**電子郵件:** <a href="mailto:protected" data-mail="obfuscated">loading...</a>
+**電子郵件:** <a href="#" data-mail="protected">taida.agent@gmail.com</a>
 
 
 ---
 
 ## 🇯🇵 日本語
 ご質問・ご意見・不具合のご報告は、以下のメールアドレスまでお送りください。  
-**E-mail:** <a href="mailto:protected" data-mail="obfuscated">loading...</a>
+**E-mail:** <a href="#" data-mail="protected">taida.agent@gmail.com</a>
 
 ---
 
@@ -33,20 +34,19 @@ When reporting bugs, please include:
 © 2025 OshiUta / taida.agent@gmail.com  
 All rights reserved.
 
-<!-- 🧩 Anti-bot email protector -->
+<!-- 審査対応ボット対策スクリプト -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  const user = 'taida.agent';
-  const domain = 'gmail.com';
-  const mail = `${user}@${domain}`;
-  const links = document.querySelectorAll('a[href^="mailto:taida.agent"], a[href*="taida.agent@gmail.com"]');
-  links.forEach(link => {
-    link.href = `mailto:${mail}`;
-    link.textContent = mail;
+  const user = "taida.agent";
+  const domain = "gmail.com";
+  const mail = user + "@" + domain;
+
+  document.querySelectorAll('a[data-mail="protected"]').forEach(a => {
+    a.href = "mailto:" + mail;
   });
-  const spans = document.querySelectorAll('span[data-mail="obfuscated"]');
-  spans.forEach(span => span.textContent = mail);
 });
 </script>
-<noscript><p>taida.agent [at] gmail.com</p></noscript>
+
+<noscript>taida.agent [at] gmail.com</noscript>
+
 
