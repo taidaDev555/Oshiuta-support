@@ -1,4 +1,4 @@
-[🏠 Index](index.md) ｜ [💬 Support](support.md) ｜ [🔐 Privacy Policy](privacy.md) ｜ [📩 Contact](contact.md) ｜ [🧾 CSV Marker](csv-maker.html)
+[🏠 Index](index.md) ｜ [💬 Support](support.md) ｜ [🔐 Privacy Policy](privacy.md) ｜ [📩 Contact](contact.md) ｜ [🧾 CSV Maker](csv-maker.html)
 
 ---
 
