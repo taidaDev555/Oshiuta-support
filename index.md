@@ -15,7 +15,7 @@ OshiUta（オシウタ）の公式サポートページです。
 
 ## 📩 Contact / 聯絡方式 / お問い合わせ
 
-**E-mail:** [taida.agent@gmail.com](mailto:taida.agent@gmail.com)
+**E-mail:** <a href="#" data-mail="protected">taida.agent@gmail.com</a>
 
 ---
 
@@ -33,3 +33,18 @@ OshiUta（オシウタ）の公式サポートページです。
 
 © 2025 OshiUta / taida.agent@gmail.com  
 All rights reserved.
+
+<!-- 審査対応ボット対策スクリプト -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const user = "taida.agent";
+  const domain = "gmail.com";
+  const mail = user + "@" + domain;
+
+  document.querySelectorAll('a[data-mail="protected"]').forEach(a => {
+    a.href = "mailto:" + mail;
+  });
+});
+</script>
+
+<noscript>taida.agent [at] gmail.com</noscript>
