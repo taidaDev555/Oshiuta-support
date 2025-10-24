@@ -1,4 +1,4 @@
-[🏠 Index](index.md) ｜ [💬 Support](support.md) ｜ [🔐 Privacy Policy](privacy.md) ｜ [📩 Contact](contact.md) ｜ [🧾 CSV Marker](tools/csv_marker.html)
+[🏠 Index](index.md) ｜ [💬 Support](support.md) ｜ [🔐 Privacy Policy](privacy.md) ｜ [📩 Contact](contact.md) ｜ [🧾 CSV Marker](tools/csv-marker.html)
 
 ---
 
@@ -27,7 +27,7 @@ OshiUta（オシウタ）の公式サポートページです。
 
 ## 🧾 CSV Tools / CSV 工具 / CSV関連ツール
 
-👉 [Open CSV Marker / 開啟 CSV 標記工具 / CSV作成ツールを開く](CSV_marker.html)
+👉 [Open CSV Marker / 開啟 CSV 標記工具 / CSV作成ツールを開く](tools/csv-marker.html)
 
 ---
 
