@@ -1,3 +1,6 @@
+📩 <strong>Contact</strong>
+<a href="mailto:taida.agent&#64;gmail.com">taida.agent&#64;gmail.com</a>
+
 
 **OshiUta** 是一款由個人開發者共同製作的付費應用程式，  
 可透過 YouTube 內嵌播放器播放直播存檔中的特定片段。  
