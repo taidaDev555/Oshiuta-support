@@ -1,6 +1,35 @@
 📩 <strong>Contact</strong>
 <a href="mailto:taida.agent&#64;gmail.com">taida.agent&#64;gmail.com</a>
 
+**OshiUta** is a paid community-developed app that plays specific segments of YouTube live archives using the embedded player (iframe API).  
+
+## ⚖️ Legal Disclaimer
+
+OshiUta uses the **YouTube embedded player (iframe API)** and  
+does **not** download, store, or redistribute any video or audio data.
+
+This app is a personal tool that allows users to play public YouTube streams  
+within YouTube’s official playback environment.  
+All copyrights, trademarks, and other intellectual property rights  
+belong to their respective creators and rights holders.
+
+Please note that due to YouTube’s specifications or the streamer’s settings,  
+some videos may not be playable within the app.  
+We cannot guarantee playback availability for any specific video.
+
+OshiUta and its development team claim **no ownership** of any content  
+and shall not be held responsible for any loss or issues arising from  
+the use of this application.
+
+This site provides the official **contact** and **privacy policy** information.
+
+- [Contact](contact.md)
+- [Privacy Policy](privacy.md)
+- [Support](support.md)
+
+---
+
+
 
 **OshiUta** 是一款由個人開發者共同製作的付費應用程式，  
 可透過 YouTube 內嵌播放器播放直播存檔中的特定片段。  
@@ -26,40 +55,8 @@ OshiUta 及其開發團隊不主張任何內容之權利，
 本網站提供 **聯絡方式** 與 **隱私權政策**。
 
 - [聯絡我們 / Contact](contact.md)
-- [隱私權政策（繁體中文）](privacy.zh-Hant.md)
-- [隱私權政策（日文）](privacy.ja.md)
-- [Privacy Policy (English)](privacy.en.md)
+- [Privacy Policy](privacy.md)
 - [支援 / Support](support.md)
-
----
-
-**OshiUta** is a paid community-developed app that plays specific segments of YouTube live archives using the embedded player (iframe API).  
-
-## ⚖️ Legal Disclaimer
-
-OshiUta uses the **YouTube embedded player (iframe API)** and  
-does **not** download, store, or redistribute any video or audio data.
-
-This app is a personal tool that allows users to play public YouTube streams  
-within YouTube’s official playback environment.  
-All copyrights, trademarks, and other intellectual property rights  
-belong to their respective creators and rights holders.
-
-Please note that due to YouTube’s specifications or the streamer’s settings,  
-some videos may not be playable within the app.  
-We cannot guarantee playback availability for any specific video.
-
-OshiUta and its development team claim **no ownership** of any content  
-and shall not be held responsible for any loss or issues arising from  
-the use of this application.
-
-This site provides the official **contact** and **privacy policy** information.
-
-- [Contact](contact.md)
-- [Privacy Policy (English)](privacy.en.md)
-- [Privacy Policy (Japanese)](privacy.ja.md)
-- [Privacy Policy (Traditional Chinese)](privacy.zh-Hant.md)
-- [Support](support.md)
 
 ---
 
@@ -86,9 +83,7 @@ OshiUta は収録コンテンツに関して一切の権利を主張せず、
 このサイトでは **連絡先** と **プライバシーポリシー** を公開しています。
 
 - [お問い合わせ / Contact](contact.md)
-- [プライバシーポリシー（日本語）](privacy.ja.md)
-- [Privacy Policy (English)](privacy.en.md)
-- [隱私權政策（繁體中文）](privacy.zh-Hant.md)
+- [Privacy Policy](privacy.md)
 - [サポート / Support](support.md)
 
 ---
