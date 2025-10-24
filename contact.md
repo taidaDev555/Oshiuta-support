@@ -1,31 +1,33 @@
+[🏠 Index](index.md) ｜ [💬 Support](support.md) ｜ [🔐 Privacy Policy](privacy.md) ｜ [📩 Contact](contact.md) ｜ [🧾 CSV Marker](CSV_marker.html)
 
 ---
 
-如需與我們聯絡，請使用以下連結。  
-**為防止垃圾郵件，未直接顯示電子郵件地址。**
-
-開發團隊 / taida-agency Development Team
-
-📧 <a href="#" onclick="location.href='mailto:' + 'taida.agent' + '@' + 'gmail.com'; return false;">聯絡我們 / Contact / メールを送る</a>
+## 🇺🇸 English
+If you have any questions or feedback, please contact:  
+**E-mail:** [taida.agent@gmail.com](mailto:taida.agent@gmail.com)
 
 ---
 
-For any inquiries regarding the OshiUta app, please use the link below.  
-**To prevent spam, the email address is not displayed directly.**
-
-taida-agency Development Team
-
-📧 <a href="#" onclick="location.href='mailto:' + 'taida.agent' + '@' + 'gmail.com'; return false;">Contact Us / 聯絡我們 / メールを送る</a>
+## 🇹🇼 繁體中文
+若有問題或建議，請聯絡：  
+**電子郵件:** [taida.agent@gmail.com](mailto:taida.agent@gmail.com)
 
 ---
 
-アプリに関するご連絡は下記のリンクからお願いします。  
-**Spam 対策のため、直接メールアドレスは表示していません。**
-
-taida-agency Development Team
-
-📧 <a href="#" onclick="location.href='mailto:' + 'taida.agent' + '@' + 'gmail.com'; return false;">メールを送る / Contact / 聯絡我們</a>
+## 🇯🇵 日本語
+ご質問・ご意見・不具合のご報告は、以下のメールアドレスまでお送りください。  
+**E-mail:** [taida.agent@gmail.com](mailto:taida.agent@gmail.com)
 
 ---
 
-© 2025 taida-agency Development Team. All rights reserved.
+### 📎 Attachments (optional)
+When reporting bugs, please include:
+- App version
+- iOS version
+- Device model
+- A brief description or screenshot (if possible)
+
+---
+
+© 2025 OshiUta / taida.agent@gmail.com  
+All rights reserved.
