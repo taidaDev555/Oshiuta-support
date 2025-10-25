@@ -27,7 +27,7 @@ OshiUta（オシウタ）の公式サポートページです。
 
 ## 🧾 CSV Tools / CSV 工具 / CSV関連ツール
 
-👉 [Open CSV Marker / 開啟 CSV 標記工具 / CSV作成ツールを開く](csv-maker.html)
+👉 [Open CSV Marker / 開啟 CSV 標記工具 / CSV作成ツールを開く](csv_maker.html)
 
 ---
 
